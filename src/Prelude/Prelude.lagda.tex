@@ -1,0 +1,38 @@
+
+\chapter{Prólogo}
+
+\section{Objetivos de estos apuntes}
+
+El curso estándar en un grado de matemáticas toma por dada las fundaciones que lo hacen posible, siendo $ ZFC $ la elección unánime. Estos apuntes sirven cómo intento de respuesta a la pregunta: ¿Es posible cursar el grado de matemáticas en fundaciones constructivas?.
+
+Definamos pues que son las matemáticas constructivas:
+
+\begin{quote}
+Constructive mathematics is distinguished from its traditional counterpart, classical mathematics, by the strict interpretation of the phrase ``there exists'' as ``we can construct''. In order to work constructively, we need to re-interpret not only the existential 
+quantifier but all the logical connectives and quantifiers as instructions on how to construct a proof of the statement involving these logical expressions. 
+
+--- Stanford Encyclopedia of Philosophy
+\end{quote}
+
+Las matemáticas constructivas son entonces, utilizando la analogía entre topoi y universos matemáticos, matemáticas internas a topoi con buenas propiedades de computabilidad (o continuidad, para los geómetras). Es decir, se prohíbe el uso de cualquier principio 
+sin contenido computacional.
+
+Tómese la Ley del Tercero Excluido (LTE), la proposición que afirma $ \forall p \in Prop.\; p \vee \neg p $ . Computacionalmente, se nos pide ser capaces de realizar una elección, juzgar la veracidad de $ p $, por cada proposición existente. No es difícil ver por
+qué dicha ley es completamente anti-computacional.
+
+Bien es cierto que es demostrable que ciertos resultados son inalcanzables al constructivismo, por si renunciar a la Ley del Tercero Excluido no fuese poco, debemos asimismo renunciar al axioma de la elección pues este implica LTE. Es además un resultado muy conocido
+que el axioma de la elección es equivalente a la proposición que afirma que todo espacio vectorial tiene una base. De hecho, muchas áreas de las matemáticas, si no todas, se complican si uno no es cuidadoso reformulando las definiciones y demostraciones clásicas.
+
+La reacción natural ante tal posición es quizás de rechazo: ¿Por qué alguien querría limitarse a tal paronama sin motivo alguno? Debates sobre la filosofía de las matemáticas aparte, el desarrollo de las matemáticas constructivas en sí puede verse como desarrollo
+de una área de interés para muchas ramas de la ciencia que sin embargo es renegada por muchos.
+
+Asimismo, todas las matemáticas contenidas en estos apuntes son formalizadas en Cubical-Agda, extensión que añade ideas de Teoría Cúbica de Tipos a el asistente de demostraciones Agda. La Teoría Cúbica de Tipos da un modelo reciente donde el Axioma de Univalencia de
+Voyevodski tiene una interpretación computacional.
+
+\section{Matemáticas sin la Ley del Tercero Excluido}
+
+
+
+\subsection{Computación}
+
+\subsection{Limitaciones}
