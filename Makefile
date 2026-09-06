@@ -7,7 +7,7 @@ TARGET    = Main
 AGDA       = agda
 AGDA_FLAGS = --cubical --safe --without-K -i src
 
-.PHONY: agda latex clean
+.PHONY: agda latex clean push
 
 agda:
 	$(AGDA) $(AGDA_FLAGS) $(SRC_DIR)/$(TARGET).lagda.tex

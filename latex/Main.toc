@@ -1,7 +1,0 @@
-\babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {1}Prólogo}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Objetivos de estos apuntes}{5}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Matemáticas sin la Ley del Tercero Excluido}{6}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Computación}{6}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Limitaciones}{6}{subsection.1.2.2}%
-\contentsfinish 
